@@ -1,0 +1,29 @@
+main-navbar
+{
+    background-color:#595959;
+}
+.main-box
+{
+    padding-top:10px;
+    background-image: url("https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+    font-weight:400;
+}
+.lead
+{
+    text-align: center;
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+}

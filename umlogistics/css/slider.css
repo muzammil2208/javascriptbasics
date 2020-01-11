@@ -1,0 +1,35 @@
+#slideshow {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-wrapper {
+    width: 500%;
+    margin: 0px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.slide-number {
+    width: 20%;
+    height: 350px;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0%;
+    }
+    50% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: -200%;
+    }
+}
+
+body {
+    font-size: 100%;
+}

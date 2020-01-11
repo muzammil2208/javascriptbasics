@@ -1,0 +1,39 @@
+#container {
+    text-align: center;
+    overflow: hidden;
+    background-color: bisque
+}
+
+#con {
+    text-align: center;
+    overflow: hidden;
+    background-color: darkgray
+}
+
+pre {
+    overflow: hidden;
+}
+
+.umang {
+    text-align: left;
+    font-size: 24px;
+    justify-content: safe;
+    margin: 0%;
+    padding: 0%;
+}
+
+#im {
+    width: 360px;
+    height: 100%;
+}
+
+#i {
+    width: 300px;
+    height: 100%;
+}
+
+@media (max-width:768px) {
+    .umang {
+        font-size: 3vw;
+    }
+}
